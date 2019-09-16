@@ -1,7 +1,11 @@
-# worcap-hackathon
-Data Science - Hackathon
+# WorCAP 2019 - Hackathon - Introdução à Data Science
 
-# Dados
+Instruções para os participantes...
+
+
+# Preparação do Ambiente Jupyter
+
+# Download Dados
   - [Malha Municipal 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_municipios.zip)<br>
 
   - [Malha UF 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_unidades_da_federacao.zip)<br>
