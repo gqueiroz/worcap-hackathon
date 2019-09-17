@@ -1,19 +1,19 @@
 # WorCAP 2019 - Hackathon - Introdução à Data Science
 
  **Evento**: [WORCAP 2019](http://www.inpe.br/worcap/2019/)  
- **Data**: 15/09/2019  
+ **Data**: 19/09/2019  
  **Horário**: 09:00 - 17:30  
  **Local**: LIT  
  **Instrutor**: Rafael Santos (INPE)  
 
  **Colaboradores do hackathon:**  
  
- - Olga Bittencourt (bolsista PCI)
- - Felipe Medeiros (aluno da CAP)
- - Gilberto Queiroz (docente da CAP)
- - Leonardo de Souza Vieira
- - Márcia Beatriz Pereira Domingues
- - Vitor Conrado Faria Gomes
+ - Olga Bittencourt (bolsista PCI - INPE)
+ - Felipe Medeiros (mestrando - CAP)
+ - Gilberto Queiroz (docente da CAP - INPE)
+ - Leonardo de Souza Vieira (doutorando - CAP)
+ - Márcia Beatriz Pereira Domingues (bolsista PCI - INPE)
+ - Vitor Conrado Faria Gomes (doutorando - CAP)
 
 # 1. Preparação do Ambiente Jupyter
 
