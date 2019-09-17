@@ -1,14 +1,77 @@
 # WorCAP 2019 - Hackathon - Introdução à Data Science
 
-Instruções para os participantes...
+ **Evento**: [WORCAP 2019](http://www.inpe.br/worcap/2019/)  
+ **Data**: 15/09/2019  
+ **Horário**: 09:00 - 17:30  
+ **Local**: LIT  
+ **Instrutor**: Rafael Santos (INPE)  
+
+ **Colaboradores do hackathon:**  
+ 
+ - Olga Bittencourt (bolsista PCI)
+ - Felipe Medeiros (aluno da CAP)
+ - Gilberto Queiroz (docente da CAP)
+ - Leonardo de Souza Vieira
+ - Márcia Beatriz Pereira Domingues
+ - Vitor Conrado Faria Gomes
+
+# 1. Preparação do Ambiente Jupyter
+
+Para a realização das atividades práticas do hackathon é **necessário** que o participante leve um notebook com o ambiente [Anaconda](https://www.anaconda.com/distribution/) previamente instalado.
+A seguir estão os links diretos para download do Anaconda para cada Sistema Operacional:
+
+ - [Linux](https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh)
+ - [Windows 64-Bit](https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86_64.exe)
+ - [Windows 32-Bit](https://repo.anaconda.com/archive/Anaconda3-2019.07-Windows-x86.exe)
+ - [macOS](https://repo.anaconda.com/archive/Anaconda3-2019.07-MacOSX-x86_64.pkg)
+
+Veja os detalhes sobre a instalação na [documentação oficial](https://docs.anaconda.com/anaconda/install/) do Anaconda.
 
 
-# Preparação do Ambiente Jupyter
+# 2. Criando Ambiente Conda e instalando pacotes
 
-# Download Dados
-  - [Malha Municipal 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_municipios.zip)<br>
+Se você estiver usando o Windows, abra o **Anaconda Prompt**, no Linux ou macOS abra o **terminal**.
 
-  - [Malha UF 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_unidades_da_federacao.zip)<br>
+Execute o seguinte comando para criar um ambiente conda hackathon:
 
-  - [Focos de Queimada 2017 - Fonte Original: INPE](https://github.com/gqueiroz/cap394/blob/master/2018/class-02/dados/focos_2017.zip) (**Obs.:** Dados Modificados para finalidade da Aula)
+```bash
+conda create --name hackathon python=3.7
+```
+
+Ative o ambiente com o seguinte comando:
+```bash
+conda activate hackathon
+```
+
+Execute o comando abaixo para instalar os pacotes que serão utilizados no hackathon:
+```bash
+conda install jupyter numpy pandas geopandas seaborn matplotlib psycopg2
+pip install wtss
+```
+
+Registre esse ambiente para ser utilizado no jupyter notebook
+```bash
+python -m ipykernel install --user --name hackathon --display-name "Python (hackathon)"
+```
+
+Verifique se o jupyter notebook está corretamente instalado rodando:
+```bash
+jupyter notebook
+```
+Abra o endereço indicado no log do comando acima. Você deverá ver uma página semelhante à figura abaixo. 
+
+![Jupyter](./imgs/jupyter.png "Jupyter")
+
+
+# 3. Download Dados
+
+Faça o download dos seguintes arquivos para o hackathon:
+
+  - [Malha Municipal 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_municipios.zip)  
+
+  - [Malha UF 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_unidades_da_federacao.zip)  
+
+  - [Focos de Queimada 2017 - Fonte Original: INPE](https://github.com/gqueiroz/cap394/blob/master/2018/class-02/dados/focos_2017.zip)  
+
+ (**Obs.:** Dados Modificados para finalidade da Aula)
 
