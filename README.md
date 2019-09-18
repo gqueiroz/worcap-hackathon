@@ -65,7 +65,15 @@ Abra o endereço indicado no log do comando acima. Você deverá ver uma página
 
 # 3. Download Dados
 
-Faça o download dos seguintes arquivos para o hackathon:
+Inicialmente faça a cópia desse repositório para seu computador. Você pode fazer isso usando o git:
+
+```bash
+git clone https://github.com/gqueiroz/worcap-hackathon.git
+```
+
+ou fazendo download [nesse link](https://github.com/gqueiroz/worcap-hackathon/archive/master.zip).
+
+Em seguida, baixe os seguintes arquivos para o hackathon:
 
   - [Malha Municipal 2017 - Fonte: IBGE](http://servicodados.ibge.gov.br/Download/Download.ashx?u=geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2017/Brasil/BR/br_municipios.zip)  
 
